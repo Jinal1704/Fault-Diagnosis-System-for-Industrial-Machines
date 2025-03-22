@@ -74,7 +74,7 @@ In the Node-RED UI, open the Manage Palette (Menu > Manage Palette):
    
   ## 4.Deploy and Test
    - Click Deploy.
-   - Open http://BBB_IP_ADDRESS:1880/ui or http://BBB_IP_ADDRESS:1881/ui to see the dashboard.
+   - Open  http://BBB_IP_ADDRESS:1880/ui  or  http://BBB_IP_ADDRESS:1881/ui  to see the dashboard.
 
        
    
