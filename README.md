@@ -81,6 +81,42 @@ The system consists of the following components:
 sudo apt update
 sudo apt install mosquitto mosquitto-clients
 
+- Subscribe to MQTT topics and process data using Python:
+```bash
+mosquitto_sub -h <MQTT_BROKER_IP> -t "machine/vibration"
+mosquitto_sub -h <MQTT_BROKER_IP> -t "machine/temperature"
+
+ ### 4. Node-RED/Grafana Dashboard
+- Install Node-RED on BeagleBone Black:
+
+```bash
+sudo npm install -g node-red
+node-red
+
+- Create an MQTT-based dashboard to visualize sensor data in real-time.
+
+## Usage
+- Power on all devices (STM32, ESP32, BeagleBone Black).
+- Monitor vibration and temperature values on the Node-RED dashboard.
+- If any sensor value crosses the defined threshold, BeagleBone Black triggers an alert.
+
+## Example Output
+
+```bash
+ESP32 UART Ready
+Received: Vib:1702, Temp:30°C
+Received: Vib:1583, Temp:28°C
+Received: Vib:1762, Temp:32°C
+Alert: Temperature exceeded safe limit!
+
+## Future Improvements
+- Add cloud integration for remote monitoring.
+- Implement AI-based anomaly detection.
+- Enhance security using encrypted MQTT communication.
+
+
+
+
 
 
 
