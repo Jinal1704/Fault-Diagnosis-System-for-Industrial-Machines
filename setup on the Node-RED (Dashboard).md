@@ -19,9 +19,11 @@ In the Node-RED UI, open the Manage Palette (Menu > Manage Palette):
 - Search for node-red-dashboard and install it.
 
 ## 3. Create Node-RED Flow for Vibration Sensor Data
-###  1.Add an MQTT Input Node
-- Drag MQTT in node onto the workspace.
-- Double-click it and configure:
-      - Server: localhost:1883 (since Mosquitto runs on BBB)
-      - Topic: ` vibration/data `
+1. **Add an MQTT Input Node**
+   - Drag `MQTT in` node onto the workspace.
+   - Double-click it and configure:
+     - **Server**: `localhost:1883` (since Mosquitto runs on BBB)
+     - **Topic**: `vibration/data`
+     - Click **Done**.
+
 
