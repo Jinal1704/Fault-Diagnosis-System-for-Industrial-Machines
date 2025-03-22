@@ -33,7 +33,7 @@ In the Node-RED UI, open the Manage Palette (Menu > Manage Palette):
       - **Output**: String
       - Click **Done**
 2. **Add a JSON Node**
-   - Drag a  2 json node and connect it to the MQTTs node.
+   - Drag a  2 json nodes and connect it to the MQTTs node.
    - This converts the received MQTT message to a readable format.
 3. **Add a Gauge Node**  
    - Drag a `Gauge` node from the Dashboard section.
