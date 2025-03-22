@@ -1,4 +1,6 @@
 # Fault-Diagnosis-System-for-Industrial-Machines
+##  Overview
+This project implements a Fault Diagnosis System for Industrial Machines using STM32F401RET6, ESP32, and BeagleBone Black (BBB). The system monitors vibration and temperature of industrial machines, processes the data, and sends alerts if the values exceed predefined thresholds.
 ## System Architecture  
 
 The system consists of the following components:  
@@ -87,7 +89,8 @@ sudo apt install mosquitto mosquitto-clients
 mosquitto_sub -h <MQTT_BROKER_IP> -t "machine/vibration"
 mosquitto_sub -h <MQTT_BROKER_IP> -t "machine/temperature"
 ```
-
+- Implement a Python script to trigger alerts if thresholds are exceeded.
+  
  ### 4. Node-RED/Grafana Dashboard
 - Install Node-RED on BeagleBone Black:
  ```bash
