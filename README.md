@@ -76,20 +76,16 @@ The system consists of the following components:
 
   ### 3. BeagleBone Black Configuration  
 - Install Mosquitto MQTT broker:  
-
-```bash
 sudo apt update
 sudo apt install mosquitto mosquitto-clients
 
 - Subscribe to MQTT topics and process data using Python:
-```bash
+
 mosquitto_sub -h <MQTT_BROKER_IP> -t "machine/vibration"
 mosquitto_sub -h <MQTT_BROKER_IP> -t "machine/temperature"
 
  ### 4. Node-RED/Grafana Dashboard
 - Install Node-RED on BeagleBone Black:
-
-```bash
 sudo npm install -g node-red
 node-red
 
@@ -101,8 +97,6 @@ node-red
 - If any sensor value crosses the defined threshold, BeagleBone Black triggers an alert.
 
 ## Example Output
-
-```bash
 ESP32 UART Ready
 Received: Vib:1702, Temp:30°C
 Received: Vib:1583, Temp:28°C
