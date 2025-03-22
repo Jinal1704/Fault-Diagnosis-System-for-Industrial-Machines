@@ -22,7 +22,6 @@ In the Node-RED UI, open the Manage Palette (Menu > Manage Palette):
 ###  1.Add an MQTT Input Node
 - Drag MQTT in node onto the workspace.
 - Double-click it and configure:
--- Server: localhost:1883 (since Mosquitto runs on BBB)
--- 
-  
+      - Server: localhost:1883 (since Mosquitto runs on BBB)
+      - Topic: ` vibration/data `
 
