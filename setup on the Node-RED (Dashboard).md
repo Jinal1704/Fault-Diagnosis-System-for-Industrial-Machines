@@ -46,12 +46,12 @@ In the Node-RED UI, open the Manage Palette (Menu > Manage Palette):
          - Click Done.
        - Connect it to the JSON node.
      -  For Vibration:
-       - Drag another Gauge node.
-       - Configure similarly with:
-         - Label: Vibration Level
-         - Min: 0
-         - Max: 1023
-       - Connect it to the JSON node.
+        - Drag another Gauge node.
+        - Configure similarly with:
+          - Label: Vibration Level
+          - Min: 0
+          - Max: 1023
+        - Connect it to the JSON node.
 
  ### for UI Group
  1. Open Node-RED Dashboard Settings
