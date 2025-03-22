@@ -76,13 +76,13 @@ The system consists of the following components:
 
   ### 3. BeagleBone Black Configuration  
 - Install Mosquitto MQTT broker:  
-sudo apt update
-sudo apt install mosquitto mosquitto-clients
+``sudo apt update ``
+ ``sudo apt install mosquitto mosquitto-clients ``
 
 - Subscribe to MQTT topics and process data using Python:
 
-mosquitto_sub -h <MQTT_BROKER_IP> -t "machine/vibration"
-mosquitto_sub -h <MQTT_BROKER_IP> -t "machine/temperature"
+``mosquitto_sub -h <MQTT_BROKER_IP> -t "machine/vibration" ``
+``mosquitto_sub -h <MQTT_BROKER_IP> -t "machine/temperature" ``
 
  ### 4. Node-RED/Grafana Dashboard
 - Install Node-RED on BeagleBone Black:
