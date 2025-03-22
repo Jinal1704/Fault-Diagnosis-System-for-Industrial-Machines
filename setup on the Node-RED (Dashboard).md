@@ -40,17 +40,18 @@ In the Node-RED UI, open the Manage Palette (Menu > Manage Palette):
      - For Temperature:
        - Drag a Gauge node from dashboard
        - Double-click:
-         - Group: Your Dashboard Group
-         - Label: Temperature
-         - Min: 0
-         - Click Done.
+         - **Group**: Your Dashboard Group
+         - **Label**: Temperature
+         - **Min**: 0
+         - Click **Done**.
        - Connect it to the JSON node.
      -  For Vibration:
         - Drag another Gauge node.
         - Configure similarly with:
-          - Label: Vibration Level
-          - Min: 0
-          - Max: 1023
+          - **Group**: Your Dashboard Group
+          - **Label**: Vibration Level
+          - **Min**: 0
+          - **Max**: 1023
         - Connect it to the JSON node.
 
  ### for UI Group
