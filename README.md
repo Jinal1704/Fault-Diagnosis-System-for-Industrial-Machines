@@ -76,7 +76,7 @@ The system consists of the following components:
 - Install ``PubSubClient`` library for MQTT communication.  
 - Configure **ESP32** to publish data to MQTT topics.
 
-  ### 3. BeagleBone Black Configuration  
+### 3. BeagleBone Black Configuration  
 - Install Mosquitto MQTT broker:  
 ```bash
 sudo apt update
@@ -100,9 +100,9 @@ node-red
 - Create an MQTT-based dashboard to visualize sensor data in real-time.
 
 ## Usage
-- Power on all devices (STM32, ESP32, BeagleBone Black).
-- Monitor vibration and temperature values on the Node-RED dashboard.
-- If any sensor value crosses the defined threshold, BeagleBone Black triggers an alert.
+1. Power on all devices (STM32, ESP32, BeagleBone Black).
+2. Monitor vibration and temperature values on the Node-RED dashboard.
+3. If any sensor value crosses the defined threshold, BeagleBone Black triggers an alert.
 
 ## Example Output
  ```bash
