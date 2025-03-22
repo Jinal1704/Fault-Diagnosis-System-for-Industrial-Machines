@@ -1,0 +1,1 @@
+# Fault-Diagnosis-System-for-Industrial-Machines
