@@ -119,6 +119,16 @@ Alert: Temperature exceeded safe limit!
 - Implement AI-based anomaly detection.
 - Enhance security using encrypted MQTT communication.
 
+## License
+This project is open-source and available under the MIT License.
+
+## Contact
+
+For any queries, feel free to reach out!
+📧 Email:  jinalpatel7355@gmail.com  or tanishamistry24@gmail.com
+
+
+
 
 
 
