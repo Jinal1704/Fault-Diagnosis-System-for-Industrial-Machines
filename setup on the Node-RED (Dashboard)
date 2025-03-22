@@ -1,14 +1,3 @@
-Node-RED Setup and Dashboard for Temperature & Vibration Monitoring
-1. Install Node-RED on BBB
-Run the following commands to install Node-RED:
-   " sudo apt update
-   sudo apt install node-red -y  "
-Start Node-RED  
-node-red
-By default, Node-RED runs on port 1880.
-Open http://BBB_IP_ADDRESS:1880 or  in a web browser.  
-
-
-
-
+# By default, Node-RED runs on port 1880.
+Open http://BBB_IP_ADDRESS:1880 in a web browser.
 
